@@ -6,11 +6,11 @@ export type NavItem = {
 
 export const navItems: NavItem[] = [
   { href: 'index.html', label: 'Home', id: 'home' },
-  { href: 'sponsors.html', label: 'Sponsors', id: 'sponsors' },
-  { href: 'outreach.html', label: 'About Us', id: 'outreach' },
+  { href: 'about.html', label: 'About Us', id: 'about' },
   { href: 'team.html', label: 'Meet the Team', id: 'team' },
+  { href: 'outreach.html', label: 'Outreach', id: 'outreach' },
+  { href: 'sponsors.html', label: 'Sponsors', id: 'sponsors' },
   { href: 'join.html', label: 'Joining the team', id: 'join' },
-  { href: 'outreach.html', label: 'Outreach', id: 'outreach-2' }
 ]
 
 export type Resource = {

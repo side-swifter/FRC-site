@@ -80,8 +80,13 @@ mount(
         <p class="panel-label">Gallery</p>
         <h2>Our Team</h2>
       </header>
-      <div class="team-photo-card">
-        <img class="team-photo" src="assets/team-photo.png" alt="FRC Team 11179 team photo" />
+      <div class="featured-photo-layout">
+        <div class="team-photo-card team-photo-card-large">
+          <img class="team-photo team-photo-large" src="assets/team-photo.png" alt="FRC Team 11179 team photo" />
+        </div>
+        <figure class="robot-card">
+          <img class="robot-photo" src="assets/robots/robot-1.png" alt="FRC robot photo" />
+        </figure>
       </div>
     </section>
 
