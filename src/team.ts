@@ -66,15 +66,20 @@ mount(
     'Students leading design, code, outreach, and competition for Team 11179.',
     `
     <section class="home-section">
-      <div class="featured-photo-layout">
-        <div class="team-photo-card team-photo-card-large">
-          <img class="team-photo team-photo-large" src="assets/team-photo.png" alt="FRC Team 11179 team photo" />
-          <p class="photo-caption">FRC 11179 Team Photo</p>
-        </div>
-        <figure class="robot-card">
-          <img class="robot-photo" src="assets/robots/robot-2.png" alt="FRC robot photo" />
-        </figure>
+      <div class="team-photo-card team-photo-card-large">
+        <img class="team-photo team-photo-large" src="assets/team-photo.png" alt="FRC Team 11179 team photo" />
+        <p class="photo-caption">FRC 11179 Team Photo</p>
       </div>
+    </section>
+
+    <section class="home-section">
+      <header class="home-section-head">
+        <p class="panel-label">Robot</p>
+        <h2>Robot Spotlight</h2>
+      </header>
+      <figure class="robot-card robot-card-standalone">
+        <img class="robot-photo" src="assets/robots/robot-2.png" alt="FRC robot photo" />
+      </figure>
     </section>
 
     <section class="home-section content-card centered">

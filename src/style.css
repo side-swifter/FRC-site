@@ -912,16 +912,18 @@ a {
 
 .about-grid {
   display: grid;
-  gap: 0.75rem;
+  gap: 1rem;
   grid-template-columns: 1fr 1fr;
 }
 
 .about-card {
+  border: 2px solid rgba(32, 103, 158, 0.45);
   padding: 0.9rem;
   display: grid;
   gap: 0.8rem;
   grid-template-columns: 120px 1fr;
   align-items: start;
+  box-shadow: 0 10px 20px rgba(7, 44, 73, 0.08);
 }
 
 .about-card h3 {
@@ -1269,6 +1271,11 @@ a.cta.red-btn,
   border-radius: 14px;
   overflow: hidden;
   background: #ffffff;
+}
+
+.robot-card-standalone {
+  max-width: 760px;
+  margin: 0 auto;
 }
 
 .robot-photo {

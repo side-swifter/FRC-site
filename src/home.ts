@@ -80,14 +80,19 @@ mount(
         <p class="panel-label">Gallery</p>
         <h2>Our Team</h2>
       </header>
-      <div class="featured-photo-layout">
-        <div class="team-photo-card team-photo-card-large">
-          <img class="team-photo team-photo-large" src="assets/team-photo.png" alt="FRC Team 11179 team photo" />
-        </div>
-        <figure class="robot-card">
-          <img class="robot-photo" src="assets/robots/robot-1.png" alt="FRC robot photo" />
-        </figure>
+      <div class="team-photo-card team-photo-card-large">
+        <img class="team-photo team-photo-large" src="assets/team-photo.png" alt="FRC Team 11179 team photo" />
       </div>
+    </section>
+
+    <section class="home-section">
+      <header class="home-section-head">
+        <p class="panel-label">Robot</p>
+        <h2>Robot Spotlight</h2>
+      </header>
+      <figure class="robot-card robot-card-standalone">
+        <img class="robot-photo" src="assets/robots/robot-1.png" alt="FRC robot photo" />
+      </figure>
     </section>
 
     <section class="home-section">
