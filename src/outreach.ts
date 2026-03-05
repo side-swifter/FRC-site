@@ -4,25 +4,55 @@ import { mount, renderPage } from './site'
 mount(
   renderPage(
     'outreach',
-    'Outreach & Community Impact',
-    'Sharing STEM through demos, events, and mentoring.',
+    'Outreach',
+    'This page highlights the outreach events our team has led to share STEM and robotics with our community. Part of our mission statement is to provide STEM opportunities to the youth in our community, and thus, we conduct several outreach events to fulfill our mission.',
     `
-    <section class="content-card">
-      <h2>What We Do</h2>
-      <ul class="clean-list">
-        <li>Host and support local STEM showcases.</li>
-        <li>Demonstrate the robot at school and community events.</li>
-        <li>Encourage younger students to explore engineering.</li>
-      </ul>
+    <section class="home-section">
+      <article class="sponsor-intro-card">
+        <h2>Outreach</h2>
+        <p>
+          This page highlights the outreach events our team has led to share STEM and robotics with our community.
+        </p>
+        <p>
+          Part of our mission statement is to provide STEM opportunities to the youth in our community, and thus,
+          we conduct several outreach events to fulfill our mission.
+        </p>
+      </article>
     </section>
 
-    <section class="split-card">
-      <div>
-        <p class="eyebrow">Outreach File</p>
-        <h2>See our outreach highlights and event impact.</h2>
-        <a class="cta" href="assets/FRC 11179 - Outreach.pdf" target="_blank" rel="noreferrer">Open Outreach PDF</a>
+    <section class="home-section">
+      <header class="home-section-head">
+        <p class="panel-label">Events</p>
+        <h2>Outreach events</h2>
+      </header>
+      <div class="perk-stack">
+        <article class="perk-card">
+          <h3>Lacy Elementary School STEM Night - 1/15/26</h3>
+          <p>Coming soon!</p>
+        </article>
+
+        <article class="perk-card">
+          <h3>Academy of Engineering Expo - 2/25/26</h3>
+          <p>Coming soon!</p>
+        </article>
+
+        <article class="perk-card">
+          <h3>Woods Creek Elementary STEAM night - 2/25/26</h3>
+          <p>Coming soon!</p>
+        </article>
+
+        <article class="perk-card">
+          <h3>More outreach events</h3>
+          <p>Coming soon!</p>
+        </article>
       </div>
-      <img class="about-logo" src="assets/logo.png" alt="Team logo" />
+    </section>
+
+    <section class="home-section">
+      <article class="sponsor-intro-card">
+        <h2>More updates</h2>
+        <p>Coming soon!</p>
+      </article>
     </section>
   `
   )

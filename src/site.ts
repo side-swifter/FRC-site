@@ -6,10 +6,11 @@ export type NavItem = {
 
 export const navItems: NavItem[] = [
   { href: 'index.html', label: 'Home', id: 'home' },
-  { href: 'team.html', label: 'Team', id: 'team' },
-  { href: 'outreach.html', label: 'Outreach', id: 'outreach' },
   { href: 'sponsors.html', label: 'Sponsors', id: 'sponsors' },
-  { href: 'join.html', label: 'Join Us', id: 'join' }
+  { href: 'outreach.html', label: 'About Us', id: 'outreach' },
+  { href: 'team.html', label: 'Meet the Team', id: 'team' },
+  { href: 'join.html', label: 'Joining the team', id: 'join' },
+  { href: 'outreach.html', label: 'Outreach', id: 'outreach-2' }
 ]
 
 export type Resource = {
@@ -60,7 +61,7 @@ export function renderPage(pageId: string, title: string, subtitle: string, cont
     .join('')
 
   return `
-  <main class="site-shell">
+  <main class="site-shell page-${pageId}">
     <section class="hero compact">
       <div class="noise"></div>
       <header class="topbar">
@@ -68,7 +69,6 @@ export function renderPage(pageId: string, title: string, subtitle: string, cont
           <img class="logo" src="assets/logo.png" alt="FRC Team 11179 logo" />
           <div>
             <p class="team-tag">FRC TEAM 11179</p>
-            <p class="team-subtag">White • Red • Blue</p>
           </div>
         </a>
         <nav class="nav">${nav}</nav>
@@ -80,11 +80,18 @@ export function renderPage(pageId: string, title: string, subtitle: string, cont
       </div>
     </section>
 
-    ${content}
+    <section class="page-content-shell">
+      ${content}
+    </section>
 
     <footer class="footer">
-      <p>Team 11179</p>
-      <p>Built with TypeScript + Vite</p>
+      <p class="footer-title">Coach emails:</p>
+      <p><a href="mailto:rsettle@wcpss.net">rsettle@wcpss.net</a></p>
+      <p><a href="mailto:asousa@wcpss.net">asousa@wcpss.net</a></p>
+      <p class="footer-title">Check out our instagram!</p>
+      <p>
+        <a href="https://www.instagram.com/afhs_frc11179/" target="_blank" rel="noreferrer">Instagram</a>
+      </p>
     </footer>
   </main>
   `
